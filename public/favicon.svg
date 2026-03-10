@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Dark background circle -->
+  <circle cx="32" cy="32" r="32" fill="#0a0a1a"/>
+  <!-- Board outline: neon cyan rounded rect -->
+  <rect x="6" y="14" width="52" height="36" rx="8" stroke="#00f5ff" stroke-width="2.5" fill="#0d0d2b"/>
+  <!-- P2 store (left) -->
+  <rect x="8" y="16" width="10" height="32" rx="4" fill="#0a0a2a" stroke="#bf00ff" stroke-width="1.5"/>
+  <!-- P1 store (right) -->
+  <rect x="46" y="16" width="10" height="32" rx="4" fill="#0a0a2a" stroke="#00f5ff" stroke-width="1.5"/>
+  <!-- P2 pits (top row) — 6 small circles -->
+  <circle cx="22" cy="24" r="4" fill="#0a0a2a" stroke="#bf00ff" stroke-width="1.2"/>
+  <circle cx="28" cy="24" r="4" fill="#0a0a2a" stroke="#bf00ff" stroke-width="1.2"/>
+  <circle cx="34" cy="24" r="4" fill="#0a0a2a" stroke="#bf00ff" stroke-width="1.2"/>
+  <circle cx="40" cy="24" r="4" fill="#0a0a2a" stroke="#bf00ff" stroke-width="1.2"/>
+  <!-- P1 pits (bottom row) -->
+  <circle cx="22" cy="40" r="4" fill="#0a0a2a" stroke="#00f5ff" stroke-width="1.2"/>
+  <circle cx="28" cy="40" r="4" fill="#0a0a2a" stroke="#00f5ff" stroke-width="1.2"/>
+  <circle cx="34" cy="40" r="4" fill="#0a0a2a" stroke="#00f5ff" stroke-width="1.2"/>
+  <circle cx="40" cy="40" r="4" fill="#0a0a2a" stroke="#00f5ff" stroke-width="1.2"/>
+  <!-- Seed dots — P1 pits (cyan) -->
+  <circle cx="22" cy="40" r="1.5" fill="#00f5ff"/>
+  <circle cx="28" cy="40" r="1.5" fill="#ffd700"/>
+  <circle cx="34" cy="40" r="1.5" fill="#00ff88"/>
+  <circle cx="40" cy="40" r="1.5" fill="#ff0080"/>
+  <!-- Seed dots — P2 pits (purple) -->
+  <circle cx="22" cy="24" r="1.5" fill="#bf00ff"/>
+  <circle cx="34" cy="24" r="1.5" fill="#ff6600"/>
+  <!-- Glow filter (subtle) -->
+  <circle cx="32" cy="32" r="31" stroke="#00f5ff" stroke-width="1" opacity="0.3"/>
+</svg>
